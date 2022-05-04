@@ -27,14 +27,6 @@ public class Correntista {
         this.conta = conta;
     }
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
     public String getCpf() {
         return cpf;
     }
@@ -49,5 +41,13 @@ public class Correntista {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 }
